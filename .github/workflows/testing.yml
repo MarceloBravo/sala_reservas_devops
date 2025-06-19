@@ -28,4 +28,4 @@ jobs:
       - name: Ejecutar pruebas
         run: |
           source venv/bin/activate
-          pytest
+          PYTHONPATH=$(pwd)/sala-reservas pytest
