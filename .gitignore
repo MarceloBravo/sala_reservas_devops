@@ -1,0 +1,32 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+
+# Archivos de dependencias instaladas
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de bases de datos locales
+*.sqlite3
+
+# Archivos de pruebas y cobertura
+.coverage
+htmlcov/
+
+# Archivos generados por herramientas
+dist/
+build/
